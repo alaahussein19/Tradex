@@ -532,13 +532,20 @@ h2 {
 }
 @media (max-width: 430px) {
   #carouselExampleCaptions {
-    height: 70vh !important;
+    height: 50vh !important;
   }
   #carouselExampleCaptions img {
-    height: 70vh;
+    height: 50vh;
+  }
+  .started-btn {
+    padding: 7px 15px;
   }
   .arousel-inner {
     height: 100%;
+  }
+  input {
+    padding-top: 3% !important;
+    padding-bottom: 3% !important;
   }
   .cogs {
     display: none !important;
@@ -550,10 +557,10 @@ h2 {
     width: 100%;
   }
   .carousel-caption {
-    top: 15%;
+    top: 13%;
   }
   .carousel-caption h2 {
-    font-size: 35px !important;
+    font-size: 30px !important;
   }
   .carousel-caption .col-9 {
     width: 100% !important;
