@@ -514,7 +514,7 @@ h2 {
 }
 
 .contact {
-  background-image: url("../Tradex images/slider3.jpg");
+  background-image: url("../Tradex images/slider2.jpg");
   background-size: 100% 100%;
   height: 54vh;
 }
@@ -524,8 +524,13 @@ h2 {
 .contact-header {
   font-size: 50px;
 }
-.carousel-caption {
+/* .carousel-caption {
   top: 29%;
+} */
+@media (min-width: 1400px) {
+  .carousel-caption {
+    top: 31%;
+  }
 }
 #team-img {
   display: none;
@@ -652,8 +657,9 @@ h2 {
     padding: 0 !important;
   }
   .nav-item a {
-    color: #ffffff;
     margin-left: 4%;
+    padding-left: 3%;
+    padding-top: 3%;
   }
   body {
     overflow-x: hidden;
