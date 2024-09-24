@@ -514,7 +514,8 @@ h2 {
 }
 
 .contact {
-  background-image: url("../Tradex images/slider1.jpg");
+  background-image: url("../Tradex images/slider3.jpg");
+  background-size: 100% 100%;
   height: 54vh;
 }
 .black-layer {
@@ -526,7 +527,9 @@ h2 {
 .carousel-caption {
   top: 29%;
 }
-
+#team-img {
+  display: none;
+}
 @media (max-width: 430px) {
   #carouselExampleCaptions {
     height: 70vh !important;
@@ -644,5 +647,8 @@ h2 {
   .nav-item a {
     color: #ffffff;
     margin-left: 4%;
+  }
+  body {
+    overflow-x: hidden;
   }
 }
